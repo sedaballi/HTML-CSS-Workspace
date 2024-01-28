@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(laptop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  height: 50px;
+}
+nav a {
+  text-decoration: none;
+  padding: 0px 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover {
+  background-color: #f0f0f0;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  width: 250px;
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+}
+.menuButton {
+    display: none;
+}
+@media  (max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menuButton{
+        display: block;
+    }
+    
+}
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
