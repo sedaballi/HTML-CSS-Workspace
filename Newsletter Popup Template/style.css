@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  height: 100%;
+  outline: none;
+}
+
+body {
+  background-image: url(img/Background.png);
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 350px;
+  height: 430px;
+  background-color: #fff;
+  /*background-color: #3054e9;*/
+  box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+  border-radius: 10px;
+}
+
+.card-header {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  height: 150px;
+  background-image: url(img/Pattern.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3054e9;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-header h2 {
+  margin-top: 70px;
+  width: 70%;
+  text-align: center;
+}
+
+.card-content {
+  height: 35%;
+  background-clip: padding-box;
+}
+
+.card-content h3 {
+  font-size: 12px;
+  font-weight: 200;
+  height: 30px;
+  padding-top: 20px;
+  text-align: center;
+  color: #8f8f8f;
+}
+.card-content input {
+  width: 200px;
+  height: 40px;
+  border: 0.7px solid #e7e8ef;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: #eef0f5;
+}
+
+.card-content input::placeholder {
+  color: #8f8f8f;
+}
+
+.card-content button {
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #3054e9;
+  color: #fff;
+  border: none;
+}
+
+.card-content-button {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  margin-top: 40px;
+}
+
+.card-content p {
+  font-size: 11px;
+  color: #b2b2b2;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.card-footer {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.footer-profil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-profil p {
+  display: flex;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #8f8f8f;
+}
+
+.footer-profil p:first-child {
+  font-weight: 600;
+  color: #000;
+}
+.footer-profil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.card-footer .desc {
+  padding: 20px 20px 0 20px;
+  font-size: 11px;
+  text-align: center;
+  color: #8f8f8f;
+  line-height: 15px;
+}
