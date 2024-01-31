@@ -13,8 +13,16 @@ https://sensational-toffee-e24919.netlify.app/
 
 ## 📸 Screenshots
 
-![App Screenshot](https://github.com/sedaballi/HTML-CSS-Workspace/blob/main/Newsletter%20Popup%20Template/img/Ekran%20Resmi%202024-01-30%2022.28.48.png?raw=true)
+![App Screenshot](https://github.com/sedaballi/HTML-CSS-Workspace/blob/main/huddle%20landing%20page/images/Ekran%20Resmi%202024-01-31%2019.17.56.png?raw=true)
+
+![App Screenshot](https://github.com/sedaballi/HTML-CSS-Workspace/blob/main/huddle%20landing%20page/images/Ekran%20Resmi%202024-01-31%2019.18.26.png?raw=true)
+
+![App Screenshot](https://github.com/sedaballi/HTML-CSS-Workspace/blob/main/huddle%20landing%20page/images/Ekran%20Resmi%202024-01-31%2019.18.42.png?raw=true)
 
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sedaballi/)
+
+## Find me on Behance
+
+[![Behance](https://img.shields.io/badge/Behance-sedaballi-orange?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/sedaballi)
