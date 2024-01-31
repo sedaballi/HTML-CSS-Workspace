@@ -9,7 +9,7 @@ HTML, CSS
 
 ## 📉 Demo
 
-https://sensational-toffee-e24919.netlify.app/
+https://huddle-landing-page-osso.netlify.app/
 
 ## 📸 Screenshots
 
